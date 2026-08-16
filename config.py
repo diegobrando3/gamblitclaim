@@ -37,3 +37,6 @@ OCR_LANG = "tur"
 # --- Zamanlama davranışı ---
 RESULT_WAIT_SECONDS = 2.5
 NAV_STEP_WAIT_SECONDS = 1.0
+
+# --- Kullanılan kodun kaydedildiği dosya (log/takip amaçlı) ---
+CODE_FILE = os.path.join(os.path.dirname(__file__), "current_code.txt")
